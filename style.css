@@ -93,12 +93,13 @@ video {
   display: flex;
   align-items: center;
   color: white;
+  gap: 20px;
 }
 
 .languages p {
   font-family: "Open Sans", bold;
   font-weight: 700;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   font-size: 30px;
 }
 
@@ -130,6 +131,7 @@ video {
   .languages div:last-child {
     grid-column: 1;
     width: 200px;
+    
   }
 
   .languages div {
@@ -143,7 +145,16 @@ video {
   }
 
   .languages p {
-    padding-left: 25px;
+    /* padding-left: 25px; */
     font-size: 21px;
+  }
+}
+
+@media (max-height:680px){
+  .container h1 {
+    font-weight: 300;
+    font-size: 39px;
+    margin-top: 10px;
+    margin-bottom: 40px;
   }
 }

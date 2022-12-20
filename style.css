@@ -8,7 +8,6 @@
 html,
 body {
   font-family: Open sans-serif;
-  
 }
 
 body {
@@ -46,9 +45,11 @@ video {
   text-align: center;
   z-index: 1;
 }
+
 .logo {
   margin-top: 90px;
 }
+
 .logo img {
   width: 265px;
 }
@@ -152,9 +153,11 @@ video {
 
 @media (max-height:680px){
   .container h1 {
-    font-weight: 300;
-    font-size: 39px;
+    
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+  }
+  .logo {
+    margin-top: 30px;
   }
 }
